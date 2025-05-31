@@ -11,6 +11,7 @@ ATB-III is a Node.js-based backend project designed to handle customer and user 
 - MongoDB transactions for atomic operations
 - RESTful API structure
 - Modular route organization
+-Category Model
 
 ---
 
@@ -21,6 +22,7 @@ ATB-III is a Node.js-based backend project designed to handle customer and user 
 - **MongoDB** with **Mongoose**
 - **dotenv** for environment configuration
 - **bcrypt** for password hashing
+- **Multer** image/file uploading
 
 ---
 
@@ -30,12 +32,17 @@ ATB-III Project/
 ├── routes/
 │ ├── userRoutes.js
 │ └── customerRoutes.js
+  └── categoryRoutes.js
+├── middleware/
+ └─upload.js
 ├── models/
 │ ├── User.js
 │ └── Customer.js
+  └──Category.js
 ├── controllers/
 │ ├── userController.js
 │ └── customerController.js
+  └── categoryController.js
 ├── .env
 ├── app.js / server.js
 └── package.json
