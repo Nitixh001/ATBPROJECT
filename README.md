@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# ATBPROJECT
+
+>>>>>>> 6b5e14ad4a44d52472b9506304c1ad7d7fe83c26
 # ATB-III Project
 
 ATB-III is a Node.js-based backend project designed to handle customer and user management using Express, MongoDB, and Mongoose. It supports API routes for registration and authentication.
